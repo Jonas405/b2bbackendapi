@@ -2,7 +2,7 @@
 
 var Usuario = require('../models/usuario');
 var validator =require('validator');
-var bcrypt = require('bcrypt');
+var bcrypt = require('bcryptjs');
 var fs =require('fs');
 var path=require('path');
 const saltRounds = 10;
